@@ -1,0 +1,24 @@
+<div class="character_details_container" *ngIf="character">
+  <div class="character_details_info">
+    <div class="character_photo">
+      <img src="{{character.image}}" alt="{{character.image}}">
+    </div>
+    <div class="character_info">
+      <div class="character_info_name value">
+        {{character.name}}
+      </div>
+      <div class="character_info_gender value">
+        {{character.gender}}
+      </div>
+      <div class="character_info_status value">
+        {{character.status}}
+      </div>
+      <div class="character_info_location value">
+        {{character.location.name}}
+      </div>
+      <div class="character_info_created value">
+        {{character.created}}
+      </div>
+    </div>
+  </div>
+</div>

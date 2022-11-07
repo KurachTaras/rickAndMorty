@@ -1,0 +1,21 @@
+<div class="episode_details_container" *ngIf="episode">
+  <div class="episode_details_info">
+    <div class="episode_info_container">
+      <div class="episode_info_id epi_info">
+        Episode number : {{episode.id}}
+      </div>
+      <div class="episode_info_name epi_info">
+        Episode name : {{episode.name}}
+      </div>
+      <div class="episode_info_air_date epi_info">
+        Episode  air date : {{episode.air_date}}
+      </div>
+    </div>
+  </div>
+  <div class="episode_details_characters_info" *ngIf="episode">
+    <app-character  *ngFor="let character of episode.characters" [character]="character">></app-character>
+  </div>
+</div>
+
+
+

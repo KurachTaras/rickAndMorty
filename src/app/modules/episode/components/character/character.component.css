@@ -1,0 +1,38 @@
+.episode_character_card {
+  width: 400px;
+  cursor: pointer;
+  margin: 10px;
+  padding-top: 100px;
+}
+
+.char_photo {
+  width: 250px;
+  height: 250px;
+}
+
+.episode_character_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.episode_character_info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.char_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
+}

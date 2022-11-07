@@ -1,0 +1,19 @@
+<div class="episodes_page">
+  <div class="episodes">
+    <div class="episodes-container">
+      <app-episode *ngFor="let episode of episodes" [episode]="episode"></app-episode>
+      <hr>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div class="paginator">
+    <mat-paginator
+      [length]="60"
+      class="paginator_class"
+      [pageSize]="20"
+      aria-label="Select page">
+    </mat-paginator>
+  </div>
+
+</div>

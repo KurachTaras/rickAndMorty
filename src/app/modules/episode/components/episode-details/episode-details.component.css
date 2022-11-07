@@ -1,0 +1,23 @@
+.episode_details_info {
+  height: 70px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid crimson;
+  padding: 10px;
+}
+
+.episode_details_characters_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.epi_info {
+  margin: 8px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: revert;
+}

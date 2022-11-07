@@ -1,0 +1,26 @@
+.character_container {
+  width: 320px;
+  margin-top: 25px;
+}
+
+.value_char {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.char_btn {
+  cursor: pointer;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px solid crimson;
+}
+
+.char_btn:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: black;
+  border: 3px solid crimson;
+}

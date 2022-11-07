@@ -1,0 +1,24 @@
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.characters_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.character_paginator {
+  font-size: 30px;
+}
+
+.char_paginator {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

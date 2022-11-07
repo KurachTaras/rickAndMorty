@@ -1,0 +1,19 @@
+<div class="episode_character_card" *ngIf="char" (click)="getDetails()">
+  <div class="episode_character_photo">
+    <img class="char_photo" src="{{char.image}}" alt="{{char.image}}">
+  </div>
+  <div class="episode_character_info">
+    <div class="episode_character_name char_info">
+      {{char.name}}
+    </div>
+    <div class="episode_character_gender char_info">
+      {{char.gender}}
+    </div>
+    <div class="episode_character_status char_info">
+      {{char.status}}
+    </div>
+    <div class="episode_character_created char_info">
+      {{char.created}}
+    </div>
+  </div>
+</div>

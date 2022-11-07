@@ -1,0 +1,24 @@
+.episodes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.episodes-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.paginator_class {
+  font-size: 30px;
+}
+
+.paginator {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

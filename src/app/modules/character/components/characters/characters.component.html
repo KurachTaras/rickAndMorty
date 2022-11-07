@@ -1,0 +1,17 @@
+<div class="characters_page">
+  <div class="characters">
+    <div class="characters_container">
+      <app-character *ngFor="let character of characters" [character]="character"></app-character>
+    </div>
+  </div>
+
+  <div class="character_paginator">
+    <mat-paginator [length]="pages"
+                   [pageSize]="20"
+                   class="char_paginator"
+                   aria-label="Select page">
+    </mat-paginator>
+  </div>
+
+</div>
+
